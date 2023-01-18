@@ -1,0 +1,91 @@
+body{
+    background-size: cover;
+    background-image: url(./background.jpg)
+}
+
+div{
+    font-family: sans-serif;
+}
+
+#struttura {
+    width: 1000px;
+    height: 720px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    margin-left: 420px;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(20, 20, 20);
+    opacity: 0.7;
+    border-radius: 10px 10px 10px 10px;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    text-align: center;
+}
+
+h1 {
+    color: lightgreen;
+}
+
+nav {
+    margin-left: 60px;
+    display: inline-block;
+    text-align: center;
+}
+
+main {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.fontp {
+    color: white;
+    font-size: 25px
+}
+
+.row1 {
+    display: inline-block;
+}
+
+.row2 {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.arrow::before {
+    content: "\21A6";
+}
+
+.Orangebar {
+    color: orange;
+    background: orange;
+    width: 350px;
+    height: 32px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Greenbar {
+    color: green;
+    background: green;
+    border: 0;
+    width: 550px;
+    height: 32px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Redbar {
+    color: red;
+    background: red;
+    border: 0;
+    width: 150px;
+    height: 32px;
+    margin-left: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
